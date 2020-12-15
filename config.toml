@@ -1,0 +1,7 @@
+baseURL = "http://dnaya-org.github.io/"
+languageCode = "en-us"
+title = "Dnaya"
+theme = "learn"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
