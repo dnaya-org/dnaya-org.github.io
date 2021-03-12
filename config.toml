@@ -1,7 +1,22 @@
-baseURL = "http://dnaya-org.github.io/"
-languageCode = "en-us"
+baseURL = "https://dnaya-org.github.io/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
 title = "Dnaya"
 theme = "learn"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+  editURL = "https://github.com/dnaya-org/dnaya-org.github.io/edit/main/content/"
+  description = "Documentation of Dnaya"
+  author = "F. Verri and M. Machado"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableLandingPageButton = true
+  disableMermaid = false
+  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  titleSeparator = "-"
 
 [outputs]
-home = [ "HTML", "RSS", "JSON" ]
+home = [ "HTML", "RSS", "JSON"]

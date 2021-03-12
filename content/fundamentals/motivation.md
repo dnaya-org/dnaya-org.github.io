@@ -1,7 +1,6 @@
 ---
 title: "Motivation"
 date: 2020-12-15T13:20:39-03:00
-draft: true
 ---
 
 Two common machine learning tasks are *data classification* and *data
